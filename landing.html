@@ -13,7 +13,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="04_styles.css" />
   <style>
-    /* Popup overlay */
     .gc-popup-overlay {
       display: none;
       position: fixed;
@@ -29,18 +28,18 @@
     .gc-popup-box {
       background: #fff;
       border-radius: 12px;
-      padding: 32px;
-      max-width: 520px;
+      padding: 40px;
+      max-width: 680px;
       width: calc(100% - 32px);
       position: relative;
-      max-height: 90vh;
+      max-height: 92vh;
       overflow-y: auto;
     }
     .gc-popup-close {
       position: absolute;
       top: 12px;
       right: 16px;
-      font-size: 24px;
+      font-size: 28px;
       cursor: pointer;
       background: none;
       border: none;
@@ -65,7 +64,7 @@
               <span>📦</span>
               <p style="margin:0;"><strong>4 видео-модуля</strong>, xlsx-калькулятор воронки, дашборд на 6 конверсий, <strong>11 шаблонов</strong> и регламентов.</p>
             </div>
-            <a href="#" class="gc-popup-trigger" class="btn btn--lg" data-cta="hero">Получить доступ за 4 990 ₽</a>
+            <a href="#" class="btn btn--lg gc-popup-trigger" data-cta="hero">Получить доступ за 4 990 ₽</a>
             <span class="btn-note">Доступ к материалам на 2 месяца после оплаты. Старая цена 10 000 ₽.</span>
           </div>
           <div class="hero__media">
@@ -320,7 +319,7 @@
         </div>
 
         <div class="value__cta">
-          <a href="#" class="gc-popup-trigger" class="btn btn--lg" data-cta="value">Получить доступ за 4 990 ₽</a>
+          <a href="#" class="btn btn--lg gc-popup-trigger" data-cta="value">Получить доступ за 4 990 ₽</a>
           <span class="btn-note">Доступ к материалам на 2 месяца после оплаты.</span>
         </div>
       </div>
@@ -591,7 +590,7 @@
         </div>
 
         <div class="diag__cta">
-          <a href="#" class="gc-popup-trigger" class="btn btn--lg" data-cta="diag">Узнать свою зону — открыть курс за 4 990 ₽</a>
+          <a href="#" class="btn btn--lg gc-popup-trigger" data-cta="diag">Узнать свою зону — открыть курс за 4 990 ₽</a>
           <span class="btn-note">Доступ к материалам на 2 месяца после оплаты.</span>
         </div>
       </div>
@@ -609,7 +608,7 @@
           <p class="muted">Следующий шаг — 30-минутная разборная встреча на <a href="https://nikademia.ru/audit">nikademia.ru/audit</a>. Разбираем вашу конкретную воронку, проверяем гипотезы, подбираем дальнейший формат работы.</p>
 
           <div class="ladder__cta">
-            <a href="#" class="gc-popup-trigger" class="btn btn--lg" data-cta="ladder">Получить доступ за 4 990 ₽</a>
+            <a href="#" class="btn btn--lg gc-popup-trigger" data-cta="ladder">Получить доступ за 4 990 ₽</a>
           </div>
         </div>
       </div>
@@ -636,7 +635,7 @@
           </div>
 
           <div>
-            <a href="#" class="gc-popup-trigger" class="btn btn--lg final__btn" data-cta="final">Получить доступ за 4 990 ₽</a>
+            <a href="#" class="btn btn--lg final__btn gc-popup-trigger" data-cta="final">Получить доступ за 4 990 ₽</a>
           </div>
 
           <p class="final__note">Доступ к материалам на 2 месяца. Покупка — через защищённый чекаут GetCourse.</p>
@@ -664,7 +663,6 @@
 
 <script src="05_timer.js"></script>
 <script>
-  // Popup open/close
   const overlay = document.getElementById('gcPopup');
   const closeBtn = document.getElementById('gcPopupClose');
 
