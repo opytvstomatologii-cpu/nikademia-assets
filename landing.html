@@ -32,7 +32,8 @@
       max-width: 820px;
       width: calc(100% - 32px);
       position: relative;
-      max-height: 558px;
+      height: auto;
+      min-height: 528px;
       overflow-y: auto;
     }
     .gc-popup-close {
@@ -47,6 +48,11 @@
       line-height: 1;
     }
     .gc-popup-close:hover { color: #0F172A; }
+    .gc-popup-box iframe {
+      width: 100% !important;
+      min-height: 480px !important;
+      border: none !important;
+    }
   </style>
 </head>
 <body>
