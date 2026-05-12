@@ -34,7 +34,20 @@
       position: relative;
       height: auto;
       min-height: 528px;
+      max-height: 90vh;
       overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    @media (max-width: 600px) {
+      .gc-popup-overlay {
+        align-items: flex-end;
+      }
+      .gc-popup-box {
+        padding: 32px 20px 80px;
+        max-height: 88vh;
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+      }
     }
     .gc-popup-close {
       position: absolute;
