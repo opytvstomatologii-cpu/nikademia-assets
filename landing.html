@@ -684,10 +684,30 @@
   const overlay = document.getElementById('gcPopup');
   const closeBtn = document.getElementById('gcPopupClose');
 
+  function fixWidgetHeight() {
+    const box = document.querySelector('.gc-popup-box');
+    if (!box) return;
+    const iframes = box.querySelectorAll('iframe');
+    iframes.forEach(function(f) {
+      f.style.setProperty('width', '100%', 'important');
+      f.style.removeProperty('height');
+      f.removeAttribute('height');
+    });
+    // Also fix any fixed-height divs the widget injects
+    const divs = box.querySelectorAll('div[style*="height"]');
+    divs.forEach(function(d) {
+      d.style.removeProperty('height');
+    });
+  }
+
   document.addEventListener('click', function(e) {
     if (e.target.closest('.gc-popup-trigger')) {
       e.preventDefault();
       overlay.classList.add('active');
+      // Try to fix height immediately and after short delays
+      fixWidgetHeight();
+      setTimeout(fixWidgetHeight, 300);
+      setTimeout(fixWidgetHeight, 800);
     }
   });
 
