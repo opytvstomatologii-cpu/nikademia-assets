@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Аудит-конструктор воронки клиники — Никадемия</title>
+  <meta name="description" content="Курс для собственника стоматологической клиники. 4 модуля, xlsx-калькулятор воронки, дашборд на 6 конверсий. Закройте 3 главных слива за 14 дней." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Аудит-конструктор воронки клиники" />
+  <meta property="og:description" content="Каждый понедельник — 6 цифр своей клиники за прошлую неделю на одном экране. За 14 дней — закрытие 1 точки слива воронки." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+CSSEOF
+
+cat /mnt/user-data/uploads/04_styles.css >> /mnt/user-data/outputs/landing.html
+
+cat >> /mnt/user-data/outputs/landing.html << 'HTMLEOF'
+  </style>
+</head>
+<body>
+<main>
+
+    <!-- ================= BLOCK 1 — HERO ================= -->
+    <header class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <span class="eyebrow">Курс Никадемии · Модули 1.1 – 1.4</span>
+            <h1 class="hero__h1">Аудит-конструктор воронки клиники.<br />Закройте <span class="accent">3 главных слива</span> за 14 дней.</h1>
+            <p class="hero__sub">Каждый понедельник — 6 цифр своей клиники за прошлую неделю на одном экране. Без роста рекламного бюджета и без нового персонала.</p>
+            <div class="hero__stack">
+              <span>📦</span>
+              <p style="margin:0;"><strong>4 видео-модуля</strong>, xlsx-калькулятор воронки, дашборд на 6 конверсий, <strong>11 шаблонов</strong> и регламентов.</p>
+            </div>
+            <a href="#popup:embedcode" class="btn btn--lg" data-cta="hero">Получить доступ за 4 990 ₽</a>
+            <span class="btn-note">Доступ к материалам на 2 месяца после оплаты. Старая цена 10 000 ₽.</span>
+          </div>
+          <div class="hero__media">
+            <img class="hero__photo" src="assets/vladimir.png" alt="Владимир Сивергин, автор курса" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= BLOCK 2 — TRUST BAR ================= -->
+    <section class="trust" aria-label="Цифры портфеля автора">
+      <div class="container">
+        <div class="trust__grid">
+          <div class="trust__item">
+            <div class="trust__num">80+ млн ₽/мес</div>
+            <div class="trust__label">Совокупная выручка клиник в портфеле и сопровождении</div>
+          </div>
+          <div class="trust__item">
+            <div class="trust__num">С 2018</div>
+            <div class="trust__label">Опыт управления стоматологическими клиниками</div>
+          </div>
+          <div class="trust__item">
+            <div class="trust__num">30+ клиник</div>
+            <div class="trust__label">Применили методику Никадемии</div>
+          </div>
+          <div class="trust__item">
+            <div class="trust__num">261 млн ₽</div>
+            <div class="trust__label">Годовая выручка клиники-флагмана за 2025 год</div>
+          </div>
+          <div class="trust__item">
+            <div class="trust__num">15 клиник</div>
+            <div class="trust__label">В личном сопровождении в 10 городах России</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 3 — PAIN ================= -->
+    <section class="pain" id="pain" aria-labelledby="pain-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Где деньги</span>
+          <h2 id="pain-title">Где сливаются ваши деньги — вне кресла.</h2>
+          <p class="lead">Большинство собственников думают, что у них проблема с рекламой. На самом деле пациенты теряются не на этапе рекламы. А на этапе звонка или приёма.</p>
+        </div>
+
+        <div class="pain__grid">
+          <article class="pain-card">
+            <svg class="pain-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="14" rx="2" />
+              <path d="M3 9h18" />
+              <path d="M8 14h3" />
+            </svg>
+            <h3>Маркетинг — чёрный ящик</h3>
+            <blockquote>«Плачу подрядчику 200 тысяч, пациентов не прибавилось.»</blockquote>
+            <p class="pain-card__explain">Маркетолог показывает отчёт с графиками. В отчётах журнала первичных записей — те же 30 в месяц, что и полгода назад. Связи между бюджетом и выручкой не видно.</p>
+          </article>
+
+          <article class="pain-card">
+            <svg class="pain-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M4 17l5-7 4 5 7-9" />
+              <path d="M14 6h6v6" />
+            </svg>
+            <h3>Зависимость от одного канала</h3>
+            <blockquote>«Всё в один канал. Обычно — в Яндекс.Директ. Запустил — пошли заявки. Успокоился. Ничего другого не делаешь. И в какой-то момент канал сломался или подорожал. Полная просадка.»</blockquote>
+            <p class="pain-card__explain">Когда выручка падает на 30–50% за один месяц, понимаешь — это была игла, а не маркетинговая стратегия.</p>
+          </article>
+
+          <article class="pain-card">
+            <svg class="pain-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v6l3 2" />
+            </svg>
+            <h3>Карты, на которые потратили — и забыли</h3>
+            <blockquote>«Попробовали ВК — слили 150 тысяч, ноль записей.»</blockquote>
+            <p class="pain-card__explain">Запустили без замера стоимости обращения. Через 2 месяца смотрите итог — потратили, не получили. Решение: оставить тестовые бюджеты или закрыть канал — принять не на чём.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 4 — SOLUTION ================= -->
+    <section class="solution" id="solution" aria-labelledby="solution-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Решение</span>
+          <h2 id="solution-title">Аудит-конструктор воронки клиники — посмотреть на свою клинику глазами цифр.</h2>
+          <p class="solution__lead">Не курс по маркетингу. Не методичка по найму. Это конструктор: 4 модуля, xlsx-калькулятор и дашборд для еженедельной сводки на 6 конверсий. Чтобы за 14 дней увидеть, где конкретно у вас сливаются деньги, и закрыть одну точку.</p>
+        </div>
+
+        <div class="solution__grid">
+          <div class="solution-card">
+            <div class="solution-card__num">1</div>
+            <div>
+              <h3>Главная управленческая метрика — выручка на одно кресло</h3>
+              <p>Шкала четырёх зон: меньше 1 млн ₽/кресло — старт. 1–2 млн — середняк. 2–3 млн — норма. Больше 3 млн — лидер рынка. Это язык собственника, не бухгалтера.</p>
+            </div>
+          </div>
+
+          <div class="solution-card">
+            <div class="solution-card__num">2</div>
+            <div>
+              <h3>6 цифр воронки пациентов, которые должен знать собственник каждый понедельник</h3>
+              <p>От рекламы до явки на план лечения. Без знания этих 6 цифр управление клиникой идёт вслепую.</p>
+            </div>
+          </div>
+
+          <div class="solution-card">
+            <div class="solution-card__num">3</div>
+            <div>
+              <h3>Главное узкое место — внутри клиники, не в рекламе</h3>
+              <p>Большая часть собственников теряют пациентов на звонке администратора или на презентации плана у врача. Это закрывается регламентами, а не новым подрядчиком по контекстной рекламе.</p>
+            </div>
+          </div>
+
+          <div class="solution-card">
+            <div class="solution-card__num">4</div>
+            <div>
+              <h3>Готовые шаблоны и регламенты</h3>
+              <p>Скрипт администратора, чек-лист первичного приёма на 23 пункта, скрипт куратора лечения, регламент возвратного звонка. xlsx с уже зашитыми формулами расчёта.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="funnel" aria-label="Воронка пациентов на 6 этапов">
+          <h3>Воронка пациентов: 6 этапов</h3>
+          <ol class="funnel__stages">
+            <li class="funnel__stage"><span class="step-num">01</span><span>Реклама</span></li>
+            <li class="funnel__stage funnel__stage--highlight"><span class="step-num">02</span><span>Звонок</span></li>
+            <li class="funnel__stage funnel__stage--highlight"><span class="step-num">03</span><span>Запись</span></li>
+            <li class="funnel__stage funnel__stage--highlight"><span class="step-num">04</span><span>Явка</span></li>
+            <li class="funnel__stage funnel__stage--highlight"><span class="step-num">05</span><span>План лечения</span></li>
+            <li class="funnel__stage"><span class="step-num">06</span><span>Оплата</span></li>
+          </ol>
+          <p class="funnel__caption"><strong>80% слива бюджета — здесь</strong>, в контуре 2 (звонки → запись → явка → план).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 5 — VALUE STACK ================= -->
+    <section class="value" id="value" aria-labelledby="value-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Что внутри</span>
+          <h2 id="value-title">Что входит в курс</h2>
+        </div>
+
+        <div class="value__list">
+
+          <article class="value-card">
+            <div class="value-card__media">
+              <img src="assets/module-geo.png" alt="Шаблон чек-листа аудита геосервисов клиники" loading="lazy" />
+            </div>
+            <div class="value-card__body">
+              <div class="value-card__tag">Модуль 1.1 · 20 мин</div>
+              <h3>Реклама и геосервисы + калькулятор стоимости обращения по каналам</h3>
+              <p class="value-card__desc">Что должно быть в карточке на Яндекс.Картах, 2ГИС, ПроДокторов. Как считать стоимость обращения по каналам. Как ставить задачу подрядчику с измеримыми показателями.</p>
+              <div class="value-card__price">Условная ценность — 5 000 ₽</div>
+            </div>
+          </article>
+
+          <article class="value-card">
+            <div class="value-card__media">
+              <img src="assets/module-callcenter.png" alt="Чек-лист прослушки звонков администратора на 23 пункта" loading="lazy" />
+            </div>
+            <div class="value-card__body">
+              <div class="value-card__tag">Модуль 1.2 · 22 мин</div>
+              <h3>Колл-центр и конверсия в запись + чек-лист прослушки на 23 пункта + скрипт администратора</h3>
+              <p class="value-card__desc">Прослушка 10 звонков по чек-листу. Регламент работы с недозвонами. Скрипт возвратного звонка. Почему звонок — главное узкое место.</p>
+              <div class="value-card__price">Условная ценность — 8 000 ₽</div>
+            </div>
+          </article>
+
+          <article class="value-card">
+            <div class="value-card__media">
+              <img src="assets/module-checklist.png" alt="Чек-лист 9 узлов работы клиники после первичной консультации" loading="lazy" />
+            </div>
+            <div class="value-card__body">
+              <div class="value-card__tag">Модуль 1.3 · 19 мин</div>
+              <h3>Первичный приём и план лечения + чек-лист приёма + скрипт куратора</h3>
+              <p class="value-card__desc">Чек-лист первичного приёма врача. Скрипт куратора для презентации основного плана и альтернативного. 3 фразы, которые сливают пациента на пороге презентации плана.</p>
+              <div class="value-card__price">Условная ценность — 8 000 ₽</div>
+            </div>
+          </article>
+
+          <article class="value-card">
+            <div class="value-card__media">
+              <img src="assets/module-dashboard.png" alt="Шаблон управленческого дашборда воронки клиники" loading="lazy" />
+            </div>
+            <div class="value-card__body">
+              <div class="value-card__tag">Модуль 1.4 · 18 мин</div>
+              <h3>Дашборд воронки</h3>
+              <p class="value-card__desc">Еженедельный отчёт на 6 конверсий — 30 минут в неделю. Как связать данные из CRM, МИС и журнала звонков в одну таблицу. Что делать, когда цифра просела.</p>
+              <div class="value-card__price">Условная ценность — 6 000 ₽</div>
+            </div>
+          </article>
+
+          <article class="value-card">
+            <div class="value-card__media" style="background:#F1F5F9;">
+              <svg viewBox="0 0 120 80" width="120" height="80" aria-hidden="true">
+                <rect x="6" y="6" width="32" height="44" rx="3" fill="#fff" stroke="#CBD5E1" stroke-width="1.5"/>
+                <rect x="44" y="6" width="32" height="44" rx="3" fill="#fff" stroke="#CBD5E1" stroke-width="1.5"/>
+                <rect x="82" y="6" width="32" height="44" rx="3" fill="#fff" stroke="#CBD5E1" stroke-width="1.5"/>
+                <rect x="14" y="56" width="92" height="20" rx="3" fill="#FB923C" opacity="0.18" stroke="#FB923C" stroke-width="1.5"/>
+                <text x="60" y="69" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" font-weight="700" fill="#0F172A">11 PDF</text>
+                <line x1="12" y1="16" x2="32" y2="16" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="12" y1="22" x2="28" y2="22" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="12" y1="28" x2="32" y2="28" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="50" y1="16" x2="70" y2="16" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="50" y1="22" x2="66" y2="22" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="50" y1="28" x2="70" y2="28" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="88" y1="16" x2="108" y2="16" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="88" y1="22" x2="104" y2="22" stroke="#CBD5E1" stroke-width="1.5"/>
+                <line x1="88" y1="28" x2="108" y2="28" stroke="#CBD5E1" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="value-card__body">
+              <div class="value-card__tag">Документы</div>
+              <h3>11 PDF-регламентов</h3>
+              <p class="value-card__desc">Готовые рабочие документы для администратора, куратора лечения, главного врача: скрипты, чек-листы, антипаттерны звонков и приёма.</p>
+              <div class="value-card__price">Условная ценность — 8 000 ₽</div>
+            </div>
+          </article>
+
+          <article class="value-card">
+            <div class="value-card__media">
+              <img src="assets/module-calculator.png" alt="Калькулятор воронки клиники на главной метрике — выручка на одно кресло" loading="lazy" />
+            </div>
+            <div class="value-card__body">
+              <div class="value-card__tag">XLSX · Главный инструмент</div>
+              <h3>Калькулятор воронки клиники</h3>
+              <p class="value-card__desc">Введите 8 цифр своей клиники за прошлый месяц — увидите упущенную выручку по 6 этапам с подсветкой узкого места.</p>
+              <div class="value-card__price">Условная ценность — 5 000 ₽</div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="value-totals">
+          <div class="value-totals__row">
+            <span class="value-totals__label">Итого совокупной ценности</span>
+            <span class="value-totals__num">~40 000 ₽</span>
+          </div>
+          <div class="value-totals__row">
+            <span class="value-totals__label">Старая цена</span>
+            <span class="value-totals__num value-totals__num--strike">10 000 ₽</span>
+          </div>
+          <div class="value-totals__row value-totals__row--final">
+            <span class="value-totals__label value-totals__label--bold">Цена курса сейчас</span>
+            <span class="value-totals__num value-totals__num--final">4 990 ₽</span>
+          </div>
+        </div>
+
+        <div class="value__cta">
+          <a href="#popup:embedcode" class="btn btn--lg" data-cta="value">Получить доступ за 4 990 ₽</a>
+          <span class="btn-note">Доступ к материалам на 2 месяца после оплаты.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 6 — CASE STUDIES ================= -->
+    <section class="cases" id="cases" aria-labelledby="cases-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Кейсы</span>
+          <h2 id="cases-title">Что меняется в клинике, когда системно работают с воронкой</h2>
+        </div>
+
+        <!-- 6.1 main case -->
+        <article class="case-card">
+          <span class="case-card__tag">Главный кейс · Клиника-флагман портфеля</span>
+          <h3>Клиника-флагман портфеля. Управляющий партнёр с 2022 года.</h3>
+
+          <div class="case-numbers">
+            <div class="case-numbers__item">
+              <span class="num">261 млн ₽</span>
+              <span class="label">Годовая выручка за 2025 год</span>
+            </div>
+            <div class="case-numbers__item">
+              <span class="num">×3,6</span>
+              <span class="label">Рост к моменту прихода Владимира, за 3 года</span>
+            </div>
+          </div>
+
+          <div class="case-growth">
+            <p class="case-growth__title"><strong>Кривая роста:</strong></p>
+            <p class="case-growth__line">72 млн ₽ (2022) → 93 (2023) → 165 (2024) → 261 (2025)</p>
+            <p class="case-growth__src"><em>Источник: данные ФНС, 2026.</em></p>
+          </div>
+
+          <div class="case-branch">
+            <p class="case-branch__title"><strong>Новый филиал в 2025:</strong></p>
+            <p>Открыт в июне. 4 кресла. <strong>23 млн ₽ за первые 6 месяцев работы</strong> — благодаря отлаженной системе масштабирования.</p>
+          </div>
+
+          <p class="case-card__intro" style="margin-top:0;"><strong>Что меняли поэтапно:</strong></p>
+          <ol class="case-steps">
+            <li>
+              <span class="idx">1</span>
+              <span class="txt"><strong>Контур 1 — ВК-таргет</strong> с измеримой стоимостью обращения по каналам.<span class="mod">Модуль 1.1 курса</span></span>
+            </li>
+            <li>
+              <span class="idx">2</span>
+              <span class="txt"><strong>Контур 2 — IP-телефония + AmoCRM</strong> + системное обучение администраторов.<span class="mod">Модуль 1.2 курса</span></span>
+            </li>
+            <li>
+              <span class="idx">3</span>
+              <span class="txt"><strong>Переход на iDent</strong> + единая методология рабочих процессов в МИС (от обращения до приёма).<span class="mod">Модуль 1.3 курса</span></span>
+            </li>
+            <li>
+              <span class="idx">4</span>
+              <span class="txt"><strong>Дашборд — финансовая таблица</strong> + интеграция с МИС.<span class="mod">Модуль 1.4 курса</span></span>
+            </li>
+          </ol>
+        </article>
+
+        <!-- 6.2 secondary -->
+        <article class="case-card case-card--secondary">
+          <span class="case-card__tag">Подкрепляющий кейс · Вторая клиника в портфеле</span>
+          <h3>Из 3 кресел до 11 кабинетов. Управляющий партнёр с 2018 года.</h3>
+
+          <div class="case-numbers">
+            <div class="case-numbers__item">
+              <span class="num">258 млн ₽</span>
+              <span class="label">Годовая выручка за 2025 год</span>
+            </div>
+            <div class="case-numbers__item">
+              <span class="num">×4,87</span>
+              <span class="label">Рост к 2019 году (53 млн ₽) — за 6 лет</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6.3 third — student -->
+        <article class="case-card case-card--tertiary">
+          <span class="case-card__tag">Опыт ученика программы 4 мес Никадемии · обезличено</span>
+          <h3>Собственник + врач-ортопед новой клиники в регионе</h3>
+          <p class="case-card__intro">Через 4 месяца после открытия — оборот вырос, но снова в ноль. Посчитали загрузку клиники — <strong>31%</strong>. Маркетинг = 20% оборота. Стоимость одного нового пациента из рекламы окупается 1 к 1,5, а не 1 к 5. 30% новых пациентов за месяц — с рекламы, 70% — органически.</p>
+          <blockquote>«Ошибочно пытались нанять больше врачей, не загрузив имеющихся.» — вывод собственника после расчёта.</blockquote>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 6.5 — FEEDBACK ================= -->
+    <section class="feedback" id="feedback" aria-labelledby="feedback-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Обратная связь</span>
+          <h2 id="feedback-title">Обратная связь учеников Никадемии в рабочих чатах</h2>
+          <p class="lead">Скриншоты и цитаты из закрытых чатов учеников программ Никадемии.</p>
+        </div>
+
+        <div class="feedback__gallery">
+          <figure class="feedback__shot"><img src="screenshots/photo_1_2025-07-30_1.jpg" alt="Скриншот сообщения ученика в рабочем чате Никадемии, 1 из 7" loading="lazy" /></figure>
+          <figure class="feedback__shot"><img src="screenshots/photo_2_2025-07-30_1.jpg" alt="Скриншот сообщения ученика в рабочем чате Никадемии, 2 из 7" loading="lazy" /></figure>
+          <figure class="feedback__shot"><img src="screenshots/photo_3_2025-07-30_1.jpg" alt="Скриншот сообщения ученика в рабочем чате Никадемии, 3 из 7" loading="lazy" /></figure>
+          <figure class="feedback__shot"><img src="screenshots/photo_4_2025-07-30_1.jpg" alt="Скриншот сообщения ученика в рабочем чате Никадемии, 4 из 7" loading="lazy" /></figure>
+          <figure class="feedback__shot"><img src="screenshots/photo_5_2025-07-30_1.jpg" alt="Скриншот сообщения ученика в рабочем чате Никадемии, 5 из 7" loading="lazy" /></figure>
+          <figure class="feedback__shot"><img src="screenshots/photo_6_2025-07-30_1.jpg" alt="Скриншот сообщения ученика в рабочем чате Никадемии, 6 из 7" loading="lazy" /></figure>
+          <figure class="feedback__shot"><img src="screenshots/photo_7_2025-07-30_1.jpg" alt="Скриншот сообщения ученика в рабочем чате Никадемии, 7 из 7" loading="lazy" /></figure>
+        </div>
+
+        <div class="feedback__quotes">
+          <article class="quote-card">
+            <blockquote>«За 2 недели увидела, где наши основные изъяны. Несколько лет топчемся на месте — задумалась о найме бизнес-ассистента.»</blockquote>
+            <cite>— собственник клиники в 4 кресла, после программы 4 мес Никадемии</cite>
+          </article>
+          <article class="quote-card">
+            <blockquote>«МИС-таблица определяет пациента по звонку — администраторы очень довольны.»</blockquote>
+            <cite>— собственник клиники в 2 кресла, после программы 4 мес Никадемии</cite>
+          </article>
+          <article class="quote-card">
+            <blockquote>«Шаблоны приготовили заранее — теперь не тратим время на найм.»</blockquote>
+            <cite>— бизнес-ассистент клиники, после программы 4 мес Никадемии</cite>
+          </article>
+          <article class="quote-card">
+            <blockquote>«Я работающий у кресла врач — раньше теория откладывалась в долгий ящик. Сейчас Владимир — практик, ведёт по практическим шагам. Глаза горят, голова работает, руки делают.»</blockquote>
+            <cite>— собственник-врач, после программы 4 мес Никадемии</cite>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 7 — AUTHOR ================= -->
+    <section class="author" id="author" aria-labelledby="author-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Автор</span>
+          <h2 id="author-title">Об авторе курса</h2>
+        </div>
+        <div class="author__grid">
+          <div class="author__photo-wrap">
+            <img class="author__photo" src="assets/vladimir.png" alt="Владимир Сивергин, автор курса" />
+          </div>
+          <div class="author__body">
+            <p><strong>Владимир Сивергин.</strong> Управляющий партнёр в портфеле стоматологических клиник. С 2018 года.</p>
+            <p>Совокупная выручка клиник в портфеле — 80+ млн ₽/мес. В личном сопровождении — 15 клиник в 10 городах России. Авторская методика Никадемии — проверено 30+ клиниками.</p>
+            <p class="muted">До стоматологии — строительный и общепит-бизнес. В стоматологии — не врач. Подход — рассматриваю клинику как бизнес, не как профессию.</p>
+
+            <blockquote class="author__quote">«Если пациенты довольны, они рекомендуют дальше. Врачи сами обращаются, хотят работать. Дальше начинает работать HR-бренд клиники.»</blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 8 — FAQ ================= -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-title">Вопросы, которые задают перед покупкой</h2>
+        </div>
+        <div class="faq__list">
+
+          <details class="faq-item">
+            <summary>Работает для клиники в 1–2 кресла?</summary>
+            <div class="faq-item__answer">
+              <p>Да. Методология применима со стадии 1 (1–2 кресла, выручка до 2 млн ₽/мес). Подходит как первая итерация управления — простроить регламенты, увидеть свои цифры, понять следующий шаг.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>У меня кабинет, одно кресло. Подойдёт?</summary>
+            <div class="faq-item__answer">
+              <p>С натяжкой. Модули 1.3 (приём и план лечения) и 1.4 (дашборд) — да. Модуль 1.2 про колл-центр и регламенты администратора — для одного кабинета избыточен.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Нужны технические знания?</summary>
+            <div class="faq-item__answer">
+              <p>Нет. xlsx-калькулятор и дашборд готовы — формулы зашиты, нужно просто ввести свои цифры. Базовый уровень Excel.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Сколько времени займёт пройти курс?</summary>
+            <div class="faq-item__answer">
+              <p>Видео — около 1,5 часа суммарно. Первое заполнение калькулятора — 20 минут с данными CRM под рукой. Дальше — 30 минут в неделю на дашборд.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Что после прохождения курса?</summary>
+            <div class="faq-item__answer">
+              <p>30-минутная разборная встреча на <a href="https://nikademia.ru/audit">nikademia.ru/audit</a> — на ней разбираем вашу конкретную воронку и подбираем следующий шаг. Слотов 10 в месяц, запись в порядке очереди.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>На какой срок открывается доступ к курсу?</summary>
+            <div class="faq-item__answer">
+              <p>На 2 месяца с момента оплаты. Этого хватает, чтобы пройти видео, заполнить шаблоны и собрать первый дашборд за 4–6 недель.</p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 9 — DIAG ================= -->
+    <section class="diag" id="diag" aria-labelledby="diag-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Самодиагностика</span>
+          <h2 id="diag-title">В какой зоне ваша клиника? — самодиагностика по выручке на кресло</h2>
+          <p class="lead">Откройте журнал выручки за прошлый месяц. Разделите на число кресел. Получите цифру — выручка на одно кресло, в месяц. Это главная управленческая метрика клиники.</p>
+        </div>
+
+        <div class="diag__formula">
+          <strong>Выручка за месяц</strong>
+          <span class="arrow">÷</span>
+          <strong>Число кресел</strong>
+          <span class="arrow">=</span>
+          <strong>Выручка на одно кресло, ₽/мес</strong>
+        </div>
+
+        <div class="diag__zones">
+          <article class="zone-card zone-card--start">
+            <div class="zone-card__chip">
+              <span class="num">&lt; 1 млн</span>
+              <span class="unit">₽/кресло</span>
+            </div>
+            <div>
+              <h3>Зона старта</h3>
+              <p>Фокус — загрузка расписания и базовая воронка пациентов. Курс закроет это полностью.</p>
+            </div>
+          </article>
+
+          <article class="zone-card zone-card--mid">
+            <div class="zone-card__chip">
+              <span class="num">1 – 2 млн</span>
+              <span class="unit">₽/кресло</span>
+            </div>
+            <div>
+              <h3>Зона середняка</h3>
+              <p>Фокус — поднять стоимость нормо-часа врача и системно работать с базой повторных пациентов. Курс — отличный первый шаг.</p>
+            </div>
+          </article>
+
+          <article class="zone-card zone-card--norm">
+            <div class="zone-card__chip">
+              <span class="num">2 – 3 млн</span>
+              <span class="unit">₽/кресло</span>
+            </div>
+            <div>
+              <h3>Норма зрелой клиники</h3>
+              <p>Можно задуматься о четвёртом-пятом кресле или втором филиале. Курс закроет диагностический срез.</p>
+            </div>
+          </article>
+
+          <article class="zone-card zone-card--leader">
+            <div class="zone-card__chip">
+              <span class="num">&gt; 3 млн</span>
+              <span class="unit">₽/кресло</span>
+            </div>
+            <div>
+              <h3>Лидер рынка</h3>
+              <p>Этот курс может быть избыточен. Лучше сразу на <a href="https://nikademia.ru/audit">nikademia.ru/audit</a> — 30-минутный разбор и подбор следующего шага.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="diag__cta">
+          <a href="#popup:embedcode" class="btn btn--lg" data-cta="diag">Узнать свою зону — открыть курс за 4 990 ₽</a>
+          <span class="btn-note">Доступ к материалам на 2 месяца после оплаты.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 10 — LADDER ================= -->
+    <section class="ladder" id="ladder" aria-labelledby="ladder-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Следующий шаг</span>
+          <h2 id="ladder-title">Следующий шаг после курса</h2>
+        </div>
+        <div class="ladder__body">
+          <p>После прохождения 4 модулей и заполнения дашборда у вас будет видимая картина — какие цифры воронки в вашей клинике в норме, какие проседают, и в какой из 4 зон по выручке на кресло вы находитесь.</p>
+          <p class="muted">Следующий шаг — 30-минутная разборная встреча на <a href="https://nikademia.ru/audit">nikademia.ru/audit</a>. Разбираем вашу конкретную воронку, проверяем гипотезы, подбираем дальнейший формат работы.</p>
+
+          <div class="ladder__cta">
+            <a href="#popup:embedcode" class="btn btn--lg" data-cta="ladder">Получить доступ за 4 990 ₽</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOCK 11 — FINAL CTA ================= -->
+    <section class="final" id="final" aria-labelledby="final-title">
+      <div class="container">
+        <div class="final__inner">
+          <h2 id="final-title">Курс «Аудит-конструктор воронки клиники»</h2>
+          <p>4 видео-модуля, xlsx-калькулятор, дашборд на 6 конверсий, 11 регламентов и шаблонов.</p>
+
+          <div class="price-row">
+            <span class="price-old">10 000 ₽</span>
+            <span class="price-new">4 990 ₽</span>
+          </div>
+
+          <div class="timer" id="timer" role="timer" aria-live="polite" aria-label="Таймер обратного отсчёта">
+            <div class="timer__cell"><span class="timer__num" id="t-h">48</span><span class="timer__unit">часов</span></div>
+            <span class="timer__sep">:</span>
+            <div class="timer__cell"><span class="timer__num" id="t-m">00</span><span class="timer__unit">минут</span></div>
+            <span class="timer__sep">:</span>
+            <div class="timer__cell"><span class="timer__num" id="t-s">00</span><span class="timer__unit">секунд</span></div>
+          </div>
+
+          <div>
+            <a href="#popup:embedcode" class="btn btn--lg final__btn" data-cta="final">Получить доступ за 4 990 ₽</a>
+          </div>
+
+          <p class="final__note">Доступ к материалам на 2 месяца. Покупка — через защищённый чекаут GetCourse.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__row">
+        <span>© Никадемия · Курс «Аудит-конструктор воронки клиники»</span>
+        <span>nikademia.ru/audit</span>
+      </div>
+    </div>
+  </footer><script>
+// Countdown timer — 48h early-bird, persists in localStorage
+(function() {
+  'use strict';
+  const DURATION_MS = 48 * 60 * 60 * 1000;
+  const STORAGE_KEY = 'audit_konstr_timer_start';
+
+  function getEndTime() {
+    let start = parseInt(localStorage.getItem(STORAGE_KEY), 10);
+    const now = Date.now();
+    if (!start || isNaN(start) || (now - start) > DURATION_MS) {
+      start = now;
+      try { localStorage.setItem(STORAGE_KEY, String(start)); } catch (e) {}
+    }
+    return start + DURATION_MS;
+  }
+
+  function pad(n) { return String(Math.max(0, n)).padStart(2, '0'); }
+
+  function render(end) {
+    const elH = document.getElementById('t-h');
+    const elM = document.getElementById('t-m');
+    const elS = document.getElementById('t-s');
+    if (!elH) return;
+    let diff = end - Date.now();
+    if (diff < 0) diff = 0;
+    const totalSec = Math.floor(diff / 1000);
+    const h = Math.floor(totalSec / 3600);
+    const m = Math.floor((totalSec % 3600) / 60);
+    const s = totalSec % 60;
+    elH.textContent = pad(h);
+    elM.textContent = pad(m);
+    elS.textContent = pad(s);
+    const aria = document.getElementById('timer');
+    if (aria) aria.setAttribute('aria-label', `До конца акции: ${h} часов ${m} минут ${s} секунд`);
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const end = getEndTime();
+    render(end);
+    setInterval(function() { render(end); }, 1000);
+  });
+})();
+</script>
+</body>
+</html>
